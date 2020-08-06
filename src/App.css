@@ -1,38 +1,473 @@
-.App {
-  text-align: center;
+.accueil {
+   background-image: url(images/imag2.jpg);
+   
+   background-position: center;
+   width: 100%;
+   height: 500px;
+    margin-bottom: 60px;
+   background-size: 100%;
+}
+.color{
+   background-color: blue;
+   opacity: 70%;
+   height: 500px;
+   width: 100%;
+
+ 
+}
+span{
+   color: peru;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h3{
   color: white;
+  padding-top: 40px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.navi a{
+   padding-top: 40px;
+   padding-left: 20px;
+   font-weight: bold;
+   text-decoration: none;
+   color: white;
+  
+
+}
+.pp{
+   margin-top: 40px;
+  
+
+}
+.navi a:hover{
+   text-decoration: none;
+}
+h2{
+   color: white;
+   padding-top: 70px;
+}
+h6{
+   color: white;
+   padding-top: 20px;
+}
+.btn {
+   background-color: peru;
+   border: 5px solid peru;
+   color: white;
+   padding: 16px 32px;
+   text-align: center;
+   font-size: 16px;
+   margin: 4px 2px;
+   transition: 0.3s;
+}
+ 
+.btn:hover {
+   background-color: peru;
+   color: black;
+ }
+ .imagee{
+    background-image: url(images/hommeD.png); 
+    background-size: 100%;
+    position: absolute;
+    height: 419px;
+ }
+ .dream{
+    color: black;
+    padding-bottom: 0;
+ }
+ .partie1{
+    margin-top: 70px;
+    font-size: bold;
+ }
+ h2.pt{
+    color: black;
+    padding-top: 0;
+   
+ }
+ .par1{
+   
+    height: 500px;
+ }
+
+ .part1{
+    color: blue;
+ }
+ .btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.effor{
+   background-image: url(images/effort.jpg);
+   background-repeat: no-repeat;
+   background-size: 70%;
+   height: 300px;   
+}
+.part2{
+   background-color: rgb(189, 186, 186);
+   height: 400px;
+}
+.p2{
+   padding-left: 630px;
+   padding-top: 20px;
+   color: black;
+   padding-bottom: 50px;
+}
+.team{
+   background-image: url(images/teamwork.png);
+   background-repeat: no-repeat;
+   background-size: 30%;
+   height: 150px;
+   padding-left: 400px;
+   padding-top: 50px;
+
+}
+.glob{
+   background-image: url(images/global.png);
+   background-repeat: no-repeat;
+   background-size: 30%;
+   height: 150px;
+   padding-left: 600px;
+   padding-top: 50px;
+}
+.block{
+   background-image: url(images/blockchain.png);
+   background-repeat: no-repeat;
+   background-size: 30%;
+   height: 150px;
+   padding-left: 800px;
+   padding-top: 50px;
+   padding-right: 400px;
+}
+.global{
+   padding-left: 180px;
+}
+.service{
+ 
+   padding-top: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.partie3{
+   height: 400px;
+   background-color: var(--mainWhite);
+   margin-bottom: 100px;
 }
+
+.uno{
+   margin-top: 30px
+}
+.mbtn{
+   margin-bottom: 20px;
+}
+.top {
+   color:orange;
+ }
+ 
+ .titre {
+  
+   color: black;
+ }
+
+ .femm{
+    /* background-image: url(images/femme.jpg); */
+    background-size: 100%;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+ }
+.monimage{
+   float: left;
+   max-width: 200px;
+   max-height: 200px;
+}
+ .middle {
+   margin-top: 30px;
+   color:var(--mainBlack);
+   opacity: 1;
+ }
+ .iconsearch {
+   margin-top: 15px;
+   margin-left: 5px;
+ }
+ .iconsmarket {
+   margin-top: 15px;
+   margin-left: 15px;
+ }
+ /* .maCouleur {
+   background: #007bff;
+   opacity: 0.9;
+   height:600px;
+   width: 100%;
+   background-size: 100%;
+} */
+   .couleur{
+      background-color: blue;
+      opacity: 70%;
+      height: 500px;
+      width: 100%;
+   
+    
+   }
+ 
+ 
+ 
+ .monTitle {
+   margin-top: 10px;
+ }
+ .menuhaut {
+   margin-top: 10px;
+ }
+ 
+ .nav-links{
+   color:white;
+ }
+ 
+ .nav-links :hover{
+   color:orange;
+   cursor: pointer;
+ }
+ .blocDroit {
+   background-image: url(images/effort.jpg);
+   background-repeat: no-repeat;
+   background-size: 80%;
+   margin-top: 110px;
+   width: 100%;
+   height:500px;  
+ }
+ .partie { 
+    width: 130px;
+    padding-bottom: 20px;
+ }
+ .mesimages {
+   height: 120px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   margin-right:50px ;
+  margin-left: 50px; 
+ 
+ }
+ .textes {
+   margin-top: 30px;
+ }
+ .monservice {
+   margin-top: 15px;
+ }
+ .navbar2 {
+  
+   padding-top: 20px;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-image: url('images/ville2.jpg'); 
+   background-repeat:no-repeat;
+   background-size: 100%;
+   color: white;
+   z-index: 1;
+   height:450px;
+   margin-top: 50px;
+ }
+
+ .coul{
+   background-color: blue;
+   opacity: 70%;
+   height: 430px;
+   width: 100%;
+   margin: 0;
+
+ }
+ .mp2 {
+   margin-top: 20px;
+   size: 70%;
+   opacity: 100%;
+ 
+ }
+ .Em2 {
+      margin-top: 10px;
+ }
+ /* .maCouleur2 {
+    position: relative; 
+   background: #007bff;
+   opacity: 0.6;
+   width: 100%;
+   background-size: 100%;
+    margin: 0px;
+    padding:0px ; 
+   height: 450px;
+ } */
+ .rond {
+   float: right;
+   margin-right: 40px;
+   margin-bottom: 10px;
+ }
+ .ImgBloc4 {
+   position:absolute ;
+   background-image: url(images/hommeD.png);
+   background-repeat:no-repeat;
+   background-size: 70%;
+   background-position: right;
+   margin-top: 0px;
+   float: right; 
+   height: 437px;
+ }
+ .rondOrange {
+   color:orange;
+ }
+ .moninput {
+   height:40px;
+   margin-bottom:0px;
+ }
+ .mesinputs {
+   margin-top: 10px;
+   height:200px;  
+ }
+ .footer {
+   background-color: #007bff;
+   height: 430px;
+ }
+ .icons3 {
+    color: white;
+ }
+ 
+ /* Navbar */
+ .navbar {
+   margin: 0;
+   padding-top: 20px;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-image: url('images/travail.jpg'); 
+   background-repeat:no-repeat;
+   background-size: 100%;
+   color: white;
+   z-index: 1;
+   height:600px;
+ }
+ .nav-header {
+   display: flex;
+   justify-content: space-between;
+ }
+ .nav-btn {
+   background: white;
+   border: none;
+   cursor: pointer;
+   outline: none;
+ }
+ .nav-icon {
+   font-size: 1.5rem;
+   color: var(--primaryColor);
+ }
+ .nav-links {
+   color:white;
+   height: 0;
+   overflow: hidden;
+   transition: var(--mainTransition);
+   list-style-type: none;
+ }
+ .nav-links a {
+   color:white;
+   display: block;
+   text-decoration: none;
+   padding: 1rem 0;
+   color: var(--mainBlack);
+   transition: var(--mainTransition);
+   text-align: center;
+   font-size: 1rem;
+   font-weight: 600;
+   letter-spacing: var(--mainSpacing);
+ }
+ .nav-links a:hover {
+   color: orange;
+ }
+ 
+ .show-nav {
+   height: 400px;
+ }
+ @media screen and (min-width: 768px) {
+   .nav-btn { 
+ margin-left: 150px;
+     display: none;
+   }
+  
+   .nav-center {
+     max-width: 1170px;
+     margin: 0 auto;
+     display: flex;
+   }
+   .nav-links {
+     height: auto;
+     display: flex;
+     margin-left: 4rem;
+   }
+   .nav-links a {
+     margin: 0 1rem;
+     padding: 0.5rem 0;
+   }
+ }
+ /* end of navbar */
+ 
+ /* 
+  */
+ .banner {
+   display: inline-block;
+   background: rgba(0, 0, 0, 0.5);
+   color: var(--mainWhite);
+   padding: 2rem 1rem;
+   text-align: center;
+   text-transform: capitalize;
+   letter-spacing: var(--mainSpacing);
+ }
+ .banner h1 {
+   font-size: 2.5rem;
+ }
+ .banner div {
+   width: 10rem;
+   height: 5px;
+   background: var(--primaryColor);
+   margin: 1.7rem auto;
+ }
+ .banner p {
+   font-size: 1.2rem;
+   margin-bottom: 2rem;
+ }
+ @media screen and (min-width: 576px) {
+   .banner {
+     padding: 2rem 3rem;
+   }
+   .banner h1 {
+     font-size: 3rem;
+   }
+ }
+ @media screen and (min-width: 992px) {
+   .banner {
+     padding: 2rem 6rem;
+   }
+   .banner h1 {
+     font-size: 4rem;
+   }
+ }
+ /* End of Banner */
+ /* Title */
+ .section-title {
+   text-align: center;
+   margin-bottom: 4rem;
+ }
+ .section-title h4 {
+   font-size: 2rem;
+   letter-spacing: var(--mainSpacing);
+   text-transform: capitalize;
+   margin-bottom: 1rem;
+ }
+ .section-title div {
+   width: 5rem;
+   height: 5px;
+   margin: 0 auto;
+   background: var(--primaryColor);
+ }
+
+
+
+
