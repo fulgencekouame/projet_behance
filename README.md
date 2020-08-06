@@ -71,11 +71,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### `yarn image`
 
 <div>
-<img src="capture1.png">
-<img src="capture2.png">
-<img src="capture3.png">
-<img src="capture4.png">
-<img src="capture5.png">
-<img src="capture6.png">
-<img src="capture7.png">
+<img src="Capture1.PNG">
+<img src="Capture2.PNG">
+<img src="Capture3.PNG">
+<img src="Capture4.PNG">
+<img src="Capture5.PNG">
+<img src="Capture6.PNG">
+<img src="Capture7.PNG">
 </div>
